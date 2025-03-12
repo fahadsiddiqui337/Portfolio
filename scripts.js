@@ -55,3 +55,10 @@ lightbox.option({
     'wrapAround': true,
     'showImageNumberLabel': false,
 });
+// Scroll-to-Top Button Functionality
+document.getElementById('scrollToTop').addEventListener('click', () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
