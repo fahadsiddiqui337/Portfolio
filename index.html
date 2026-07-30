@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fahad ur Rehman Siddiqui — Data Analyst</title>
+<meta name="description" content="Fahad ur Rehman Siddiqui — Data Analyst in Karachi, Pakistan. Python, SQL, R, Power BI, and machine learning for turning raw data into business decisions.">
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="site-nav" id="siteNav">
+  <div class="container">
+    <a href="#home" class="brand">fahad<span class="dot">.</span>siddiqui</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#articles">Writing</a></li>
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false"><i class="fas fa-bars"></i></button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero" id="home">
+  <div class="container">
+    <div class="hero-copy">
+      <span class="eyebrow">Data Analyst · Karachi, Pakistan</span>
+      <h1 class="hero-title">Turning raw data into <span class="accent">decisions</span> people can act on.</h1>
+      <p class="hero-lede">I'm Fahad ur Rehman Siddiqui — I clean, model, and visualize data with Python, SQL, R, and Power BI, and build ML-powered tools on top of it. Currently analyzing for CloudStaff Technology and teaching data science at Aptech.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Hire me</a>
+        <a href="#projects" class="btn btn-ghost"><i class="fas fa-diagram-project"></i> View projects</a>
+        <a href="resume-fahad-siddiqui.pdf" class="btn btn-ghost" target="_blank" rel="noopener"><i class="fas fa-file-arrow-down"></i> Resume</a>
+      </div>
+      <div class="hero-links">
+        <a href="https://www.linkedin.com/in/fahadurrehmansiddiqui/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/fahadsiddiqui337" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://medium.com/@fahadsiddiqui337" target="_blank" rel="noopener" aria-label="Medium"><i class="fab fa-medium"></i></a>
+        <a href="mailto:fahadsiddiqui337@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="hero-visual-head">
+        <span>revenue_by_quarter.csv</span>
+        <span class="live">processed</span>
+      </div>
+      <svg id="hero-chart" viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="areaFill" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#5B8DEF" stop-opacity="0.35"/>
+            <stop offset="100%" stop-color="#5B8DEF" stop-opacity="0"/>
+          </linearGradient>
+        </defs>
+        <g stroke="#232933" stroke-width="1">
+          <line x1="0" y1="30" x2="420" y2="30"/>
+          <line x1="0" y1="80" x2="420" y2="80"/>
+          <line x1="0" y1="130" x2="420" y2="130"/>
+          <line x1="0" y1="180" x2="420" y2="180"/>
+        </g>
+        <path class="chart-fill" fill="url(#areaFill)" d="M0,150 L60,140 L120,120 L180,125 L240,90 L300,70 L360,45 L420,30 L420,200 L0,200 Z"/>
+        <path class="chart-line" d="M0,150 L60,140 L120,120 L180,125 L240,90 L300,70 L360,45 L420,30"/>
+        <circle class="chart-dot" cx="420" cy="30" r="4.5" fill="#F2B84B" style="animation-delay:2.1s"/>
+      </svg>
+      <div class="hero-visual-caption">
+        <span>Q1 → Q4 2026</span>
+        <span><b>+184%</b> insight lift</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- STATS -->
+<section class="stats-bar reveal">
+  <div class="container">
+    <div class="stat">
+      <div class="stat-num">3<span class="unit">+</span></div>
+      <div class="stat-label">Years in data analytics</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">6<span class="unit">+</span></div>
+      <div class="stat-label">Projects shipped &amp; documented</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">2</div>
+      <div class="stat-label">Professional certifications</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">10<span class="unit">+</span></div>
+      <div class="stat-label">Tools &amp; languages, production-tested</div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="section-index">01 — About</span>
+      <h2>Statistics background, data-engineer habits.</h2>
+    </div>
+    <div class="about-grid reveal">
+      <div class="about-photo"><img src="profile.png" alt="Fahad ur Rehman Siddiqui"></div>
+      <div class="about-text">
+        <p>I'm a Data Analyst with a background in Statistics and a postgraduate diploma in Data Science &amp; AI. I spend most of my time turning messy, real-world datasets into dashboards, models, and reports that people actually use to make decisions — using Python, R, SQL, Excel, and Power BI. Outside client work, I teach data science and mentor students building their first projects.</p>
+        <div class="about-chips">
+          <div class="chip"><div class="k">Name</div><div class="v">Fahad ur Rehman Siddiqui</div></div>
+          <div class="chip"><div class="k">Email</div><div class="v">fahadsiddiqui337@gmail.com</div></div>
+          <div class="chip"><div class="k">Location</div><div class="v">Karachi, Pakistan</div></div>
+          <div class="chip"><div class="k">Availability</div><div class="v available">Open for freelance</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="section-index">02 — Skills</span>
+      <h2>The stack behind the insights.</h2>
+      <p>Tools I reach for daily, grouped by what they're actually for.</p>
+    </div>
+    <div class="skills-grid reveal">
+      <div class="skill-group">
+        <h3>Languages</h3>
+        <div class="tag-list">
+          <span class="tag">Python</span><span class="tag">SQL</span><span class="tag">R</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Analysis</h3>
+        <div class="tag-list">
+          <span class="tag">Exploratory Data Analysis</span><span class="tag">Data Cleaning</span><span class="tag">Statistical Analysis</span><span class="tag">Business Reporting</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Visualization</h3>
+        <div class="tag-list">
+          <span class="tag">Power BI</span><span class="tag">Tableau</span><span class="tag">Matplotlib / Seaborn</span><span class="tag">Plotly</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Databases</h3>
+        <div class="tag-list">
+          <span class="tag">MySQL</span><span class="tag">PostgreSQL</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Tools</h3>
+        <div class="tag-list">
+          <span class="tag">Excel</span><span class="tag">Git &amp; GitHub</span><span class="tag">Jupyter</span><span class="tag">Google Colab</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Machine Learning</h3>
+        <div class="tag-list">
+          <span class="tag">Regression &amp; Classification</span><span class="tag">Model Evaluation</span><span class="tag">Scikit-learn</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="section-index">03 — Experience</span>
+      <h2>Where the work has happened.</h2>
+    </div>
+    <div class="timeline reveal">
+      <div class="timeline-item">
+        <span class="timeline-date">2023 — Present</span>
+        <h3>Data Analyst</h3>
+        <span class="timeline-org">CloudStaff Technology</span>
+        <p>Conduct data analysis and reporting to support business decision-making. Use Python, SQL, Excel, and visualization to derive actionable insights and improve operational efficiency.</p>
+      </div>
+      <div class="timeline-item">
+        <span class="timeline-date">2024 — Present</span>
+        <h3>Visiting Faculty of Data Science</h3>
+        <span class="timeline-org">Aptech</span>
+        <p>Teach data science and analytics — Python, SQL, visualization, statistics, and machine learning. Mentor students through hands-on, industry-based projects.</p>
+      </div>
+      <div class="timeline-item">
+        <span class="timeline-date">2021 — 2023</span>
+        <h3>Research and Data Analyst</h3>
+        <span class="timeline-org">Syscrowd</span>
+        <p>Performed exploratory data analysis, cleaning, and visualization for research projects. Helped build predictive models and dashboards using Python, Pandas, SQL, and Matplotlib.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION + CERTIFICATIONS -->
+<section id="education">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="section-index">04 — Education</span>
+      <h2>Foundations and paper trail.</h2>
+    </div>
+    <div class="two-col reveal">
+      <div>
+        <div class="subhead">Education</div>
+        <div class="card-list">
+          <div class="edu-card">
+            <span class="timeline-date">2023 — 2025</span>
+            <h3>PGD in Data Science and AI</h3>
+            <span class="org">NED University</span>
+            <p>Focused on advanced topics in data science, machine learning, and artificial intelligence.</p>
+          </div>
+          <div class="edu-card">
+            <span class="timeline-date">2018 — 2021</span>
+            <h3>BS Statistics</h3>
+            <span class="org">University of Sindh</span>
+            <p>Specialized in statistical analysis, probability, and data interpretation.</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="subhead">Certifications</div>
+        <div class="card-list">
+          <div class="cert-card">
+            <span class="timeline-date">Issued 2022</span>
+            <h3>Python</h3>
+            <span class="org">Cisco Networking Academy</span>
+            <p>Covers core programming concepts — variables, data structures, algorithms, control flow, functions, and exceptions.</p>
+            <a href="certificate-python.pdf" target="_blank" rel="noopener" class="cert-link"><i class="fas fa-arrow-up-right-from-square"></i> View certificate</a>
+          </div>
+          <div class="cert-card">
+            <span class="timeline-date">Issued 2022</span>
+            <h3>Fundamentals of Data Science</h3>
+            <span class="org">Jawan Pakistan</span>
+            <p>Core data science techniques — preprocessing, exploratory data analysis, and model development with foundational ML algorithms.</p>
+            <a href="certificate-data-science.pdf" target="_blank" rel="noopener" class="cert-link"><i class="fas fa-arrow-up-right-from-square"></i> View certificate</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="section-index">05 — Projects</span>
+      <h2>Selected work.</h2>
+      <p>Data analysis, machine learning, and AI-powered tools — code linked on GitHub.</p>
+    </div>
+
+    <div class="filter-row reveal">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="data">Data Analysis</button>
+      <button class="filter-btn" data-filter="ml">ML</button>
+      <button class="filter-btn" data-filter="ai">AI</button>
+    </div>
+
+    <div class="projects-grid reveal" id="projectsGrid">
+
+      <div class="project-card" data-category="data">
+        <div class="project-thumb"><img src="project-hotel-booking.jpg" alt="Hotel Booking Data Analysis"></div>
+        <div class="project-body">
+          <span class="project-tag">Data Analysis</span>
+          <h3>Hotel Booking Data Analysis</h3>
+          <p>Analyzed hotel booking records from City Hotel and Resort Hotel to uncover trends, cancellations, and revenue insights.</p>
+          <a href="https://github.com/fahadsiddiqui337/Hotel-Booking-Analysis" target="_blank" rel="noopener" class="project-link"><i class="fab fa-github"></i> View code</a>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="data">
+        <div class="project-thumb"><img src="project-text-processing.jpg" alt="Data Analysis and Text Processing"></div>
+        <div class="project-body">
+          <span class="project-tag">Data Analysis</span>
+          <h3>Data Analysis and Text Processing</h3>
+          <p>Scripts for analyzing student grades and counting word occurrences in "Alice in Wonderland".</p>
+          <a href="https://github.com/fahadsiddiqui337/Data-Analysis-and-Text-Processing-Projects" target="_blank" rel="noopener" class="project-link"><i class="fab fa-github"></i> View code</a>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="ai">
+        <div class="project-thumb"><img src="project-qa-chatbot.webp" alt="QA Chatbot with Streamlit"></div>
+        <div class="project-body">
+          <span class="project-tag">AI</span>
+          <h3>QA Chatbot with Streamlit</h3>
+          <p>A Streamlit-based question-and-answer chatbot powered by Google's Gemini Pro model.</p>
+          <a href="https://github.com/fahadsiddiqui337/QA_Chatbot_Streamlit" target="_blank" rel="noopener" class="project-link"><i class="fab fa-github"></i> View code</a>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="ai">
+        <div class="project-thumb"><img src="project-ecommerce-bot.png" alt="E-commerce Product Recommendation Bot"></div>
+        <div class="project-body">
+          <span class="project-tag">AI</span>
+          <h3>E-commerce Product Recommendation Bot</h3>
+          <p>An AI-powered recommendation chatbot for e-commerce platforms, built with LangChain and Gradio.</p>
+          <a href="https://github.com/fahadsiddiqui337/E-commerce-Product-Recommendation-Bot" target="_blank" rel="noopener" class="project-link"><i class="fab fa-github"></i> View code</a>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="ai">
+        <div class="project-thumb"><img src="project-ai-education-chatbot.webp" alt="AI Education Chatbot"></div>
+        <div class="project-body">
+          <span class="project-tag">AI</span>
+          <h3>AI Education Chatbot</h3>
+          <p>An AI-powered chatbot for students, built with Google Gemini AI, LangChain, and Streamlit.</p>
+          <a href="https://github.com/fahadsiddiqui337/AI-education-chatbot" target="_blank" rel="noopener" class="project-link"><i class="fab fa-github"></i> View code</a>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="ml">
+        <div class="project-thumb"><img src="project-digit-classifier.png" alt="Digit Classifier"></div>
+        <div class="project-body">
+          <span class="project-tag">ML</span>
+          <h3>Digit Classifier</h3>
+          <p>A deep learning project that classifies handwritten digits using a CNN built in Keras and TensorFlow.</p>
+          <a href="https://github.com/fahadsiddiqui337/Digit-classifier" target="_blank" rel="noopener" class="project-link"><i class="fab fa-github"></i> View code</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ARTICLES -->
+<section id="articles">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="section-index">06 — Writing</span>
+      <h2>Notes on data &amp; AI.</h2>
+    </div>
+    <div class="articles-grid reveal">
+      <div class="article-card">
+        <h3>AI-Based Recommendation Systems for E-commerce Growth</h3>
+        <p>A beginner-friendly guide to understanding how AI-based recommendation systems drive e-commerce growth.</p>
+        <a href="https://medium.com/@fahadsiddiqui337/ai-based-recommendation-systems-for-e-commerce-growth-8f5347bc7663" target="_blank" rel="noopener" class="project-link"><i class="fab fa-medium"></i> Read on Medium</a>
+      </div>
+      <div class="article-card">
+        <h3>Deep Learning with TensorFlow</h3>
+        <p>How to build and train deep learning models using TensorFlow, from setup to first predictions.</p>
+        <a href="https://medium.com/@fahadsiddiqui337/deep-learning-with-tensorflow-building-and-training-neural-network-models-a36acf4b2b75" target="_blank" rel="noopener" class="project-link"><i class="fab fa-medium"></i> Read on Medium</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="section-index">07 — Contact</span>
+      <h2>Have a dataset that needs a story?</h2>
+      <p>Open for freelance analytics work, dashboards, and ML projects. Based in Karachi, working with clients anywhere.</p>
+    </div>
+    <div class="contact-grid reveal">
+      <form class="contact-form" id="contactForm">
+        <div class="form-row"><input type="text" name="name" placeholder="Your name" required></div>
+        <div class="form-row"><input type="email" name="email" placeholder="Your email" required></div>
+        <div class="form-row"><textarea name="message" rows="5" placeholder="Tell me about the project" required></textarea></div>
+        <button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Send message</button>
+        <p class="form-note">Opens your email client addressed to fahadsiddiqui337@gmail.com.</p>
+      </form>
+      <div class="contact-info-list">
+        <div class="contact-info-item">
+          <i class="fas fa-envelope" style="color:var(--blue)"></i>
+          <div><div class="k">Email</div><a href="mailto:fahadsiddiqui337@gmail.com">fahadsiddiqui337@gmail.com</a></div>
+        </div>
+        <div class="contact-info-item">
+          <i class="fas fa-map-marker-alt" style="color:var(--blue)"></i>
+          <div><div class="k">Location</div><span class="v">Karachi, Pakistan</span></div>
+        </div>
+        <div class="contact-info-item">
+          <i class="fab fa-linkedin-in" style="color:var(--blue)"></i>
+          <div><div class="k">LinkedIn</div><a href="https://www.linkedin.com/in/fahadurrehmansiddiqui/" target="_blank" rel="noopener">/in/fahadurrehmansiddiqui</a></div>
+        </div>
+        <div class="contact-info-item">
+          <i class="fab fa-github" style="color:var(--blue)"></i>
+          <div><div class="k">GitHub</div><a href="https://github.com/fahadsiddiqui337" target="_blank" rel="noopener">/fahadsiddiqui337</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <span class="footer-tagline">© 2026 Fahad ur Rehman Siddiqui. Built with data in mind.</span>
+    <div class="footer-socials">
+      <a href="https://www.linkedin.com/in/fahadurrehmansiddiqui/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://github.com/fahadsiddiqui337" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://medium.com/@fahadsiddiqui337" target="_blank" rel="noopener" aria-label="Medium"><i class="fab fa-medium"></i></a>
+    </div>
+  </div>
+</footer>
+
+<script src="scripts.js"></script>
+</body>
+</html>
